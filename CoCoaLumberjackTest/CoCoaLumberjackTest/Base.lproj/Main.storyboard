@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="pc6-Q5-hdg">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wLW-WV-EnG">
+                                <rect key="frame" x="31" y="184" width="103" height="36"/>
+                                <state key="normal" title="产生异常"/>
+                                <connections>
+                                    <action selector="BtnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qTF-Le-qx2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RAD-Vh-P4S">
+                                <rect key="frame" x="173" y="187" width="73" height="30.5"/>
+                                <state key="normal" title="京东分类"/>
+                                <connections>
+                                    <action selector="TabAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qe0-Ax-eWc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="RAD-Vh-P4S" secondAttribute="bottom" constant="351" id="6ff-xQ-Mwr"/>
+                            <constraint firstItem="wLW-WV-EnG" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="120" id="GEO-Kf-5pu"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="wLW-WV-EnG" secondAttribute="bottom" constant="348" id="Sso-vD-IzW"/>
+                            <constraint firstItem="RAD-Vh-P4S" firstAttribute="leading" secondItem="wLW-WV-EnG" secondAttribute="trailing" constant="39" id="Zeq-DP-VkY"/>
+                            <constraint firstItem="wLW-WV-EnG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="15" id="c5D-a6-3iB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="wLW-WV-EnG" secondAttribute="trailing" constant="170" id="cSj-4f-0ez"/>
+                            <constraint firstItem="RAD-Vh-P4S" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="123" id="iBy-qR-Euz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="RAD-Vh-P4S" secondAttribute="trailing" constant="58" id="oFS-rK-gZb"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Use-l3-LDA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="662" y="147"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="kLm-Bf-17n">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="pc6-Q5-hdg" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1fh-Pw-xim">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="TSC-z1-TrV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Sz-3b-iP7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130" y="147"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>919962CC-A9D2-479C-BD52-23DB3168DE01</string>
+	<key>IDESourceControlProjectName</key>
+	<string>JDSelectDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B1A3A3CB00B7F4F563E5D952F1FD15AA3F41070E</key>
+		<string>https://github.com/zhangli4659507/JDSelectedDemo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>JDSelectDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B1A3A3CB00B7F4F563E5D952F1FD15AA3F41070E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zhangli4659507/JDSelectedDemo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B1A3A3CB00B7F4F563E5D952F1FD15AA3F41070E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B1A3A3CB00B7F4F563E5D952F1FD15AA3F41070E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JDSelectedDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
